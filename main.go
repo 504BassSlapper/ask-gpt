@@ -34,7 +34,7 @@ func main() {
 	request := gpt3.CompletionRequest{
 		Prompt:    []string{"How many coffee should i drink today"},
 		MaxTokens: gpt3.IntPtr(50),
-		N:         gpt3.IntPtr(1),
+		// N:         gpt3.IntPtr(1),
 		// Stop:      []string{",", "."},
 		Echo: false,
 	}
